@@ -1,0 +1,15 @@
+/* Invite Button */
+.btn.invite {
+    background-color: #43B581; /* Green background */
+    color: white;
+    padding: 10px 15px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background 0.3s, transform 0.3s;
+    animation: pulse 2s infinite;
+}
+
+.btn.invite:hover {
+    background-color: #13924e; /* Hover effect */
+    transform: scale(1.1); /* Slight scaling effect */
+}

@@ -1,0 +1,15 @@
+/* Support Server Invite Button */
+.btn.support {
+    background-color: #e70331; /* Red background for support server */
+    color: white;
+    padding: 10px 15px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background 0.3s, transform 0.3s;
+    animation: pulse 2s infinite;
+}
+
+.btn.support:hover {
+    background-color: #b00909; /* Slightly darker blue when hovered */
+    transform: scale(1.1); /* Slight scaling effect */
+}

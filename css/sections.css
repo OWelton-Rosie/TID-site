@@ -1,0 +1,17 @@
+/* Initially hide sections */
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin: 20px 0;
+    opacity: 0;  /* Hidden initially */
+    transform: translateY(30px);  /* Start off-screen */
+    transition: opacity 1s ease-out, transform 1s ease-out;  /* Smooth transition when revealed */
+}
+
+/* Visible section styles */
+section.visible {
+    opacity: 1;  /* Fully visible when the class is added */
+    transform: translateY(0);  /* Move into place */
+}
