@@ -54,6 +54,7 @@ header {
     text-align: center;
     transition: background 0.5s;
     animation: glow 3s infinite alternate;
+    margin-bottom: 75px;
 }
 
 
