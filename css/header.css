@@ -60,5 +60,6 @@ header {
 
 .header-logo {
     float: left;
+    margin-left: 30px;
     margin-right: 10px; /* Optional: adds space between the image and text */
 }
