@@ -5,6 +5,7 @@
     align-items: center;
     padding: 20px 30px;
     background-color: #23272A; /* Dark background */
+    text-align: right;
 }
 
 /* Invite Button */
@@ -53,4 +54,10 @@ header {
     text-align: center;
     transition: background 0.5s;
     animation: glow 3s infinite alternate;
+}
+
+
+.header-logo {
+    float: left;
+    margin-right: 10px; /* Optional: adds space between the image and text */
 }
