@@ -13,5 +13,5 @@ document.addEventListener("DOMContentLoaded", function() {
         }, 500);
     }
 
-    setInterval(changeWord, 1500);
+    setInterval(changeWord, 2000);
 });
