@@ -17,7 +17,6 @@
     <meta property="og:keywords" content="discord, bot, statistics, today in discord">
     <meta property="og:image" content="./assets/logo.png">
 
-    
     <title>Today In Discord</title>
 
     <!-- CSS files -->
@@ -31,8 +30,17 @@
     <link rel="stylesheet" href="./css/support-button.css">
 
     <!-- JS files and favicon -->
-    <script src="index.js" defer></script>
+    <script src="changing-word.js" defer></script>
+    <script src="scroll.js" defer></script>
+
+
     <link rel="icon" href="./assets/favicon.png" type="image/x-icon">
+    <style>
+        #changing-word {
+            display: inline-block;
+            transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
+        }
+    </style>
 </head>
 
 <!-- Body content -->
@@ -48,18 +56,16 @@
     
     <!-- Header content -->
     <header>
-        <img src="./assets/logo.png" alt="Today In Discord logo" width="150px", height="150px" class="header-logo">
+        <img src="./assets/logo.png" alt="Today In Discord logo" width="150px" height="150px" class="header-logo">
        
        <div class="right-align-hero-text">
         <h1>Today In Discord</h1>
 
         <br>
 
-        <p>The premier Discord statistics bot.</p>
+        <p>The <strong><span id="changing-word">premier</span></strong> Discord statistics bot.</p>
         </div>
     </header>
-
-    
 
     <!-- Features -->
     <div class="centered-heading">
@@ -67,7 +73,6 @@
         <p>Packed with features, Today In Discord can provide as many statistics as you need.</p>
     </div>
 
-    
     <section id="feature_1">
         <img src="./assets/feature_1.png" alt="Feature 1">
         <div class="text-content">
@@ -102,7 +107,6 @@
 
     <br>
 
-
     <div class="centered-heading">
         <h2>Why choose us?</h2>
     </div>      
@@ -123,7 +127,6 @@
                     </div>
                 </div>
             </section>
-
 
     <!-- Add to server -->
     <section class="add">
