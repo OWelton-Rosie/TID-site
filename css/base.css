@@ -1,0 +1,32 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #111114; /* Dark background */
+    color: #ffffff; /* Light text */
+    transition: background 0.5s, color 0.5s;
+}
+
+/* Links */
+footer a {
+    color: white;
+}
+
+a:visited {
+    color: white;
+}
+
+h1 {
+    margin: 0;
+    font-size: 4.0rem;
+    animation: fadeIn 1s ease-in-out;
+}
+
+.centered-heading {
+    text-align: center; 
+}
+
+.centered-button {
+    align-items: center;
+}
+
