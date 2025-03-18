@@ -1,4 +1,4 @@
-<!-- This website was written by Oscar Welton-Rosie. https://owelton-rosie.pages.dev -->
+<!-- This website was written by Oscar Welton-Rosie. https://owelton-rosie.pages.dev/ -->
 
 <!DOCTYPE html>
 <html lang="en-NZ">
@@ -10,15 +10,27 @@
     <meta name="description" content="Today in Discord is the premier Discord statistics bot.">
     <meta name="keywords" content="discord, bot, statistics, today in discord">
     <meta name="author" content="Oscar Welton-Rosie">
+
+    <!-- Meta OG stuff-->
     <meta property="og:title" content="Today in Discord">
     <meta property="og:description" content="Today in Discord is the premier Discord statistics bot.">
+    <meta property="og:keywords" content="discord, bot, statistics, today in discord">
     <meta property="og:image" content="./assets/logo.png">
 
     
-    <title>Today in Discord</title>
+    <title>Today In Discord</title>
 
-    <!-- Stylesheets and scripts -->
-    <link rel="stylesheet" href="style.css">
+    <!-- CSS files -->
+    <link rel="stylesheet" href="./css/responsive.css">
+    <link rel="stylesheet" href="./css/header.css">
+    <link rel="stylesheet" href="./css/footer.css">
+    <link rel="stylesheet" href="./css/base.css">
+    <link rel="stylesheet" href="./css/sections.css">
+    <link rel="stylesheet" href="./css/features.css">
+    <link rel="stylesheet" href="./css/invite-button.css">
+    <link rel="stylesheet" href="./css/support-button.css">
+
+    <!-- JS files and favicon -->
     <script src="index.js" defer></script>
     <link rel="icon" href="./assets/favicon.ico" type="image/x-icon">
 </head>
@@ -27,19 +39,31 @@
 <body>
     <!-- Invite links -->
     <div class="top-header">
-        <a href="https://discord.com/oauth2/authorize?client_id=YOUR_BOT_ID&scope=bot" class="btn invite">Add to Server</a>
+        <a href="https://discord.com/oauth2/authorize?client_id=1017659005818126358t" class="btn invite">Add to Server</a>
 
-        <a href="https://discord.gg/invite" class="btn support">Support</a>
+        <br> <!-- Line break for space on small screens -->
+
+        Ill have the TID logo here
+
+        <a href="https://discord.gg/4NhUUrzzD9" class="btn support">Support</a>
     </div>
     
     <!-- Header content -->
     <header>
-        <h1>Today in Discord</h1>
+        <h1>Today In Discord</h1>
         <p>The premier Discord statistics bot.</p>
     </header>
 
+    <br>
 
     <!-- Features -->
+
+    <div class="centered-heading">
+        <h1>Features</h1>
+        <p>Packed with features, Today In Discord can provide as many statistics as you need.</p>
+    </div>
+
+    
     <section id="feature_1">
         <img src="./assets/feature_1.png" alt="Feature 1">
         <div class="text-content">
@@ -72,28 +96,50 @@
         </div>
     </section>
 
+    <br>
+
+
+    <div class="centered-heading">
+        <h2>Why choose us?</h2>
+    </div>      
+                <div class="features-grid">
+                    <div class="feature">
+                        <h3>Feature-rich</h3>
+                        <p>With 10 different graphs and 5 different leaderboards, Today In Discord offers deep insights into your community.</p>
+                    </div>
+                    <div class="feature">
+                        <h3>Active Development</h3>
+                        <p>New features are released almost weekly.</p>
+                    </div>
+                    <div class="feature">
+                        <h3>Help community</h3>
+                        <p>With a thriving help and development server, Today In Discord has plenty of support if you encounter difficulties.</p>
+                        <p><a href="https://discord.gg/4NhUUrzzD9" class="btn support">Join the server</a></p>
+                    </div>
+                </div>
+            </section>
+
+
     <!-- Add to server -->
-    <section class="add_bot">
+    <section class="add">
         <div class="text-content">
             <h2>Add to server</h2>
-            <p>What are you waiting for? Add Today In Discord to your server by clicking the button below</p>
-        </div>
-    </section>
+            <p>What are you waiting for? Add TID to your server by clicking the button below</p>
 
-    <!-- Support -->
-    <section class="support">
-        <div class="text-content">
-            <h2>Support</h2>
-            <p>Need help with the bot? Join our support server by clicking the button below.</p>
+            <br>
+
+            <a href="https://discord.com/oauth2/authorize?client_id=1017659005818126358" class="btn invite">Add to server</a>
         </div>
-    </section>
+        </section>
+
+        <br>
     
     <!-- Footer -->
     <footer>
-        <p>&copy; 2025 Today in Discord. All rights reserved. 
+        <p>&copy; 2025 Today in Discord. All rights reserved. Today In Discord is not affiliated with Discord.
             <br>
             <br>
-            Website by <a href="https://owelton-rosie.pages.dev/" target="_blank">Oscar Welton-Rosie</a>.
+            <p>Website by <a href="https://owelton-rosie.pages.dev/" target="_blank">Oscar Welton-Rosie</a>.</p>
         </p>
     </footer>
 </body>
